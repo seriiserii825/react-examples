@@ -1,7 +1,8 @@
 import React from "react";
-import Timer from "../components/Timer";
+import MyTimer from "../components/my-timer/MyTimer";
+
 export default function App () {
   return (
-    <Timer/>
+    <MyTimer/>
   )
 }

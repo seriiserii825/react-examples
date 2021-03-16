@@ -1,0 +1,14 @@
+.my-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  h3 {
+    font-size: 3rem;
+  }
+  button {
+    padding: 1rem 3rem;
+    cursor: pointer;
+  }
+}
