@@ -4,6 +4,12 @@
   cursor: default;
 }
 
+.dropdown .control {
+  display: block;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
 .dropdown .arrow {
   border-color: #999 transparent transparent;
   border-style: solid;
@@ -23,18 +29,17 @@
   border-width: 0 5px 5px;
 }
 
-.dropdown .selected-value {
+.dropdown .selected-value input {
   line-height: 1.5;
   font-size: 1rem;
   background-color: #fff;
-  border: 1px solid #ccc;
   border-radius: 2px;
   box-sizing: border-box;
-  cursor: default;
   outline: none;
   padding: 8px 52px 8px 10px;
   transition: all 200ms ease;
   width: 100%;
+  cursor: pointer;
 }
 
 .dropdown .options {
@@ -67,6 +72,15 @@
 
 .dropdown .option.selected,
 .dropdown .option:hover {
-  background-color: #f2f9fc;
+  background-color: #d1d6d8;
   color: #333;
+}
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
